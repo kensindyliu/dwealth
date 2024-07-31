@@ -534,29 +534,30 @@ header.header {
 }
 
 #slider-area .owl-item.active .slider-inner .tagLine {
-    -webkit-animation: 1s .4s fadeInUp both;
-    animation: 1s .4s fadeInUp both;
+    -webkit-animation: 3s .4s fadeInUp both;
+    animation: 3s .4s fadeInUp both;
 }
 
 #slider-area .owl-item.active .slider-inner span {
-    -webkit-animation: 1s .6s fadeInUp both;
-    animation: 1s .6s fadeInUp both;
+    -webkit-animation: 3s .6s fadeInUp both;
+    animation: 3s .6s fadeInUp both;
 }
 
 #slider-area .owl-item.active .caption-title {
-    -webkit-animation: 1s .8s fadeInUp both;
-    animation: 1s .8s fadeInUp both;
+    -webkit-animation: 3s .8s fadeInUp both;
+    animation: 3s .8s fadeInUp both;
 }
 
 #slider-area .owl-item.active .caption-desc {
-    -webkit-animation: 1s 1s fadeInUp both;
-    animation: 1s 1s fadeInUp both;
+    -webkit-animation: 3s 3s fadeInUp both;
+    animation: 3s 1s fadeInUp both;
 }
 
 #slider-area .owl-item.active .slide-btn {
-    -webkit-animation: 1s 1s fadeInUp both;
-    animation: 1s 1s fadeInUp both;
+    -webkit-animation: 3s 3s fadeInUp both;
+    animation: 3s 1s fadeInUp both;
 }
+
 
 
 #slider-area .silder .owl-nav div {
