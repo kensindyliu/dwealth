@@ -345,7 +345,7 @@ header.header {
 
 .navbar-nav .dropdown-menu {
     border-radius: 0px;
-    margin-top: -1px;
+    margin-top: -41px;
 }
 
 .header.header .nav-link.active::before {
@@ -497,7 +497,7 @@ header.header {
 #slider-area .slide-item {
     position: relative;
     width: 100%;
-    padding: 223px 0px 249px;
+    padding: 123px 0px 149px;
     display: table;
     background-position: center center;
     background-repeat: no-repeat;
