@@ -1529,7 +1529,7 @@ header.header.boxshadownone.stiky {
 ====================================================== */
 
 .about {
-    padding: 120px 0px 120px;
+    padding: 80px 0px 80px;
 }
 
 .about h2 {
@@ -2749,9 +2749,9 @@ margin-bottom: 25px;
     background: #fff;
     box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.15);
     padding: 68px 80px 80px;
-    margin-top: -120px;
     border-radius: 10px;
 }
+
 .comments-container .comments-list li:last-child .avatar {
     top: 30px;
 }
@@ -2780,6 +2780,7 @@ margin-bottom: 25px;
     margin-bottom: 30px;
     box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.15);
     padding: 54px 30px 58px;
+    border-radius: 5px;
 }
 
 .address .media i {
@@ -2985,3 +2986,4 @@ margin-bottom: 25px;
 /* ========================================================
 10. Faq Page Css End
 =========================================================== */
+
