@@ -651,7 +651,7 @@ Slider Area End
 ================================================= */
 
 .service {
-    padding: 110px 0px 80px;
+    padding: 110px 0px 0px;
 }
 
 .service .box {
@@ -727,7 +727,7 @@ Slider Area End
     font-size: 16px;
     color: 555;
     line-height: 30px;
-    margin: 22px 0px 35px;
+    margin: 22px 0px 0px;
 }
 
 .service .quateBox a {
@@ -1204,7 +1204,7 @@ Testimonial Area Css End
 3.7 Counter Area Start
 ======================================================== */
 .counter {
-    padding: 120px 0px 120px;
+    padding: 0px 0px 120px;
 }
 .counter .c-box{
     text-align: center;
