@@ -10,13 +10,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
     emailForm.addEventListener('submit', async (event) => {
         event.preventDefault();
-        const email = event.target.email.value;
-        const userName = event.target.userName.value; 
-console.log(userName);
+        let replyto = event.target.email.value;
+        let fristName = event.target.name.value; 
+        let lastName = event.target.lastName.value; 
+
+        const subject = event.target.subject.value; 
+        const message = event.target.message.value; 
+        let userName = fristName + ' ' + lastName;
+
+        let to_email = replyto + ', kensindytomjerry@gmail.com';
         const templateParams = {
-            to_email: email,
+            to_email: to_email,
             user_name: userName, 
-            message: 'This is a test email from the browser using EmailJS',
+            subject: subject,
+            message: message,
+            sender_email: replyto,
         };
 
         const payload = {
@@ -37,21 +45,23 @@ console.log(userName);
 
             const contentType = response.headers.get("content-type");
 
+            const now = new Date();
+            const dateTimeString = now.toLocaleString(); 
             if (response.ok) {
                 const data = contentType && contentType.includes("application/json")
                     ? await response.json()
                     : await response.text();
-                resultDiv.textContent = 'Email sent successfully!';
-                console.log('Email sent successfully:', data);
+                resultDiv.textContent = `${dateTimeString}: Email sent successfully!`;
             } else {
                 const errorData = contentType && contentType.includes("application/json")
                     ? await response.json()
                     : await response.text();
-                resultDiv.textContent = `Failed to send email: ${errorData}`;
+                resultDiv.textContent = `${dateTimeString}：Failed to send email, please try to contact us by sending email manually.`;
                 console.error('Failed to send email:', errorData);
             }
         } catch (error) {
-            resultDiv.textContent = 'Error sending email.';
+            //resultDiv.textContent = 'Error sending email.';
+            resultDiv.textContent = `${dateTimeString}：Failed to send email, please try to contact us by sending email manually.`;
             console.error('Error sending email:', error);
         }
     });

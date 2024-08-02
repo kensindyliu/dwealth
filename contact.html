@@ -148,41 +148,42 @@
 								Get In Touch
 						</h2>
 					</div>
-						<form id="emailForm">
+						<form id="emailForm"  autocomplete="off">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group form-element">
-										<input type="text" class="form-control input-field" id="name" name="name" placeholder="First Name">
+										<input type="text" class="form-control input-field" id="name" name="name" placeholder="First Name" autocomplete="off">
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="form-group form-element">
-										<input type="text" class="form-control input-field" id="lastName" name="lastName" placeholder="Last Name">
+										<input type="text" class="form-control input-field" id="lastName" name="lastName" placeholder="Last Name"  required  autocomplete="off">
 									</div>
 								</div>
 							</div>
 							<div class="row">
 									<div class="col-md-6">
 										<div class="form-group form-element">
-											<input type="email" class="form-control input-field" id="email" name="email" placeholder="Your Email">
+											<input type="email" class="form-control input-field" id="email" name="email" placeholder="Your Email" required autocomplete="off">
 										</div>
 									</div>
 								<div class="col-md-6">
 										<div class="form-group form-element">
-											<input type="text" class="form-control input-field" id="subject" name="subject" placeholder="Your Subject">
+											<input type="text" class="form-control input-field" id="subject" name="subject" placeholder="Your Subject" autocomplete="off">
 										</div>
 									</div>
 							</div>
 							<div class="row">
 								<div class="col-12">
 										<div class="form-group form-element">
-												<textarea id="message" cols="30" rows="10" class="form-control" name="message" placeholder="Write Your Message"></textarea>
+												<textarea id="message" cols="30" rows="10" class="form-control" name="message" placeholder="Write Your Message" autocomplete="off"></textarea>
 											</div>
 								</div>
 							</div>
 							<div class="contact-frm-btn">
 								<button type="submit" class="mr_btn_fill">Submit Now</button>
 							</div>
+							<div id="result"></div>
 						</form>
 					</div>
 					<!--End Contact Form-->
