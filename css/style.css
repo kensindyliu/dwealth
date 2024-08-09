@@ -2743,10 +2743,10 @@ margin-bottom: 25px;
 .contact-wrap .sectionHeader {
     margin-bottom: 50px;
 }
-.contact-wrap .address {
+.address {
     margin-bottom: 90px;
 }
-.contact-wrap .contact-form {
+.contact-form {
     background: #fff;
     box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.15);
     padding: 68px 80px 80px;
@@ -2826,12 +2826,12 @@ margin-bottom: 25px;
     background: #9fde50;
 }
 
-.contact-wrap .contact-form .input-field {
+.contact-form .input-field {
     height: 50px;
     display: block;
 }
 
-.contact-wrap .contact-form textarea{
+.contact-form textarea{
     padding-left: 15px;
     padding-top: 10px;
     resize: none;
@@ -3002,4 +3002,36 @@ margin-bottom: 25px;
 
 .marging-top-120{
     margin-top: 120px;
+}
+
+.businessHeader {
+    margin-bottom: 58px;
+    display: flex;
+    justify-content: left !important;
+}
+
+.businessHeader p {
+    text-align: left;
+    color: #7f7f7f;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 56px;
+    margin: 0 40px 13px;
+    white-space: nowrap;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.businessHeader p:hover {
+    color: #9fde50;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.businessHeaderSelected {
+    color: #333 !important;
+}
+
+.hidden {
+    display: none;
 }
