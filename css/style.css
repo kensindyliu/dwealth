@@ -3036,6 +3036,10 @@ margin-bottom: 25px;
     display: none;
 }
 
+.quickLinks{
+
+}
+
 @media (max-width: 860px) {
     .service {
         padding: 50px 0px 0px !important;
@@ -3045,6 +3049,9 @@ margin-bottom: 25px;
     }
     .businessHeader{
         display: block;
+    }
+    .quickLinks{
+        width: 50%;
     }
 
 }
