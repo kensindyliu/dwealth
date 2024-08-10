@@ -256,9 +256,9 @@ p {
 }
 
 .sectionHeader p {
-    color: #555;
+    color: #333;
     line-height: 26px;
-    font-size: 16px;
+    font-size: 26px;
 }
 
 
@@ -3041,6 +3041,10 @@ margin-bottom: 25px;
 
 }
 
+.inlineDisplay {
+    display: inline;
+}
+
 #bp3 {
     display: none;
 }
@@ -3069,7 +3073,7 @@ margin-bottom: 25px;
         width: 50%;
     }
     .businessHeader p{
-        font-size: 25px;
+        font-size: 35px;
     }
     #bp3, #bp1 {
         display: inline-block;
@@ -3084,7 +3088,12 @@ margin-bottom: 25px;
     }
     #shareP{
         margin-top: -58px;
+        font-size: 16px;
     }
 
 }
-  
+@media (max-width: 860px) {
+    .businessHeader p{
+        font-size: 25px;
+    }
+}
