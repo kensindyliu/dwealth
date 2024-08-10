@@ -3012,11 +3012,12 @@ margin-bottom: 25px;
 
 .businessHeader p {
     text-align: left;
+    display: inline-block;
     color: #7f7f7f;
     font-weight: 700;
     font-size: 35px;
     line-height: 56px;
-    margin: 0 40px 13px;
+    margin: 0 auto;
     white-space: nowrap;
     padding: 0 20px;
     cursor: pointer;
@@ -3040,6 +3041,19 @@ margin-bottom: 25px;
 
 }
 
+#bp3 {
+    display: none;
+}
+
+@media (min-width: 860px) {
+    #bp2Container{
+        display: none;
+    }
+    .businessHeader{
+        margin-bottom: 18px;
+    }
+}
+
 @media (max-width: 860px) {
     .service {
         padding: 50px 0px 0px !important;
@@ -3049,6 +3063,7 @@ margin-bottom: 25px;
     }
     .businessHeader{
         display: block;
+        text-align: center;
     }
     .quickLinks{
         width: 50%;
@@ -3056,5 +3071,20 @@ margin-bottom: 25px;
     .businessHeader p{
         font-size: 25px;
     }
+    #bp3, #bp1 {
+        display: inline-block;
+        margin: 0 auto;
+        color: #333;
+    }
+    #bp2 {
+        display: none;
+    }
+    #bp1Container{
+        display: block;
+    }
+    #shareP{
+        margin-top: -58px;
+    }
+
 }
   
