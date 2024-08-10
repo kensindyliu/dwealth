@@ -3053,6 +3053,8 @@ margin-bottom: 25px;
     .quickLinks{
         width: 50%;
     }
-
+    .businessHeader p{
+        font-size: 25px;
+    }
 }
   
