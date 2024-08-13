@@ -1,0 +1,78 @@
+#beneficial-banner {
+    width: 100%;
+    height: auto; 
+    padding: 80px;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    display: flex; 
+    place-items: center; 
+    text-align: center;     
+}
+
+.sologan {
+    display: grid; 
+    place-items: center; 
+    text-align: center; 
+}
+
+.sologan, .pic-advisor {
+    width: 50%;
+    height: auto;
+}
+
+.sologan p {
+    line-height: 40px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.pic-advisor {
+    background-image: url('../img/advisor.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+
+.btn-contactus{
+    background-color: var(--primary);
+    width: 220px;
+    height: 50px;
+    border-radius: 50px;
+    line-height: 50px;
+    color: #ffff;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px; 
+    margin-top: 30px;
+}
+
+.btn-contactus:hover {
+    background-color: #9fde50;
+    color: #333;
+}
+
+@media (max-width: 860px) { 
+    .banner{
+        display: grid;
+        place-items: center;
+        text-align: center;
+    }
+
+    .pic-advisor, .sologan {
+        width: calc(100% - 30px);
+        margin-top: 60px;
+    }
+
+    #beneficial-banner{
+        padding: 0px;
+    }
+
+    .btn-contactus {
+        margin-top: 60px;
+    }
+}
+

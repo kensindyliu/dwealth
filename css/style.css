@@ -3077,7 +3077,7 @@ margin-bottom: 25px;
         font-size: 35px;
     }
     #bp3, #bp1 {
-        display: inline-block;
+        display: inline-block !important;
         margin: 0 auto;
         color: #333;
     }
@@ -3085,7 +3085,7 @@ margin-bottom: 25px;
         display: none;
     }
     #bp1Container{
-        display: block;
+        display: block !important;
     }
     #shareP{
         margin-top: -58px;
