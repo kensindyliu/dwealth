@@ -51,7 +51,13 @@
     line-height: 40px;
 }
 
+.blue-background {
+    background-color: #0e3571;
+}
 
+.service table,p,li {
+    color: white;
+}
 
 .newstable{
     width: 150%;
@@ -106,12 +112,19 @@ tr {
 
 .noteworthy a {
     text-decoration: none;
-    color: #0077b6;
+    /* color: #0077b6; */
+    color:white;
+}
+
+.noteworthy h2 {
+    color:white;
 }
 
 li::marker {
     color: orange; /* Change the bullet color */
 }
+
+
 /* noteworthy end */
 
 
