@@ -29,7 +29,17 @@
     letter-spacing: 2px;
 }
 
+.pic-invest {
+    background-image: url('../img/invest.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    min-width: 50%;
+}
+
 .pic-advisor {
+ 
     background-image: url('../img/advisor.jpg');
     background-size: cover;
     background-position: center;
@@ -62,7 +72,7 @@
         text-align: center;
     }
 
-    .pic-advisor, .sologan {
+    .pic-advisor, .sologan,.pic-invest {
         width: calc(100% - 30px);
         margin-top: 60px;
     }
