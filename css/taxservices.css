@@ -1,0 +1,70 @@
+#tax-banner {
+    display: flex;
+    align-items: stretch; /* Ensures child elements stretch to the same height */
+    
+}
+
+.tax-container {
+    display: flex;
+    align-items: flex-start; 
+    width: 100%;
+}
+
+.tax-left-banner {
+    width: 50%; 
+    flex-shrink: 0; 
+}
+.taxbg {
+    background-image: url('../img/90background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    height: 500px;
+    width: 100%;    
+    position: relative;
+    flex-shrink: 0;
+}
+
+.taxbg a {
+    position: absolute; 
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.flex {
+    display: flex;
+}
+
+.tax-services-list {
+    flex: 1; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.tax-content ul li {
+    list-style-type: none; 
+    position: relative;
+    padding-left: 30px; 
+    color: #555;
+}
+
+.tax-content ul li::before {
+    content: "\f00c"; 
+    font-family: 'Font Awesome 5 Free'; 
+    color: #28a745; 
+    font-weight: 900; 
+    font-size: 1.25rem; 
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.divtax {
+    display: grid;
+    justify-items: center;
+}

@@ -42,8 +42,9 @@
     
 }
 
-.new {
+.news {
     display: block;
+    width: calc(100% - 330px);
 }
 
 .news-header {
@@ -60,13 +61,43 @@
 }
 
 .newstable{
-    width: 150%;
+    width: 100%;
+    table-layout: fixed; 
 }
 .newstable a {
     background-color: orange ;
     padding: 3px;
 }
 
+td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 10px;    
+}
+
+ .newstable td:nth-child(1) {
+    width: 60px;
+    min-width: 60px;
+ }
+ 
+ .newstable td:nth-child(3) {
+    width: 120px;
+    min-width: 120px;
+ }
+
+ .newstable td:nth-child(4) {
+    width: 80px;
+    min-width: 80px;
+} 
+
+td:nth-child(2) {
+    width: calc(100% - 250px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
 .newstable a:hover {
     background-color: var(--dwgreen);
     color: white;
@@ -156,4 +187,9 @@ li::marker {
         position: inherit;
         margin: 60px 0px;
     }
+
+    .news {
+        width: 100%;
+    }
+    
 }
