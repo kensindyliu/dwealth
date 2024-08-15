@@ -68,3 +68,17 @@
     display: grid;
     justify-items: center;
 }
+
+@media (max-width: 860px) {
+    .tax-container {
+        display: block;
+    }
+    .tax-left-banner{
+        width: 100%;
+    }
+    .tax-services-list {
+        width: 100%;
+        display: block;
+        padding: 60px 0px;
+    }
+}
