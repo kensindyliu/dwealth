@@ -62,6 +62,15 @@
 .newstable{
     width: 150%;
 }
+.newstable a {
+    background-color: orange ;
+    padding: 3px;
+}
+
+.newstable a:hover {
+    background-color: var(--dwgreen);
+    color: white;
+}
 
 tr {
     border-bottom: 1px solid grey; 
@@ -71,6 +80,8 @@ tr {
 .newscontent {
     display: flex;
 }
+
+
 
 
 /* noteworthy start*/
@@ -135,5 +146,14 @@ li::marker {
     }
     .investment-type {
         width: 80%;
+    }
+
+    .newscontent {
+        display: grid;
+        justify-items: left;
+    }
+    .noteworthy{
+        position: inherit;
+        margin: 60px 0px;
     }
 }
