@@ -31,6 +31,7 @@
 .investment-type p {
     margin: 0;
     font-size: 20px; 
+    color: #555;
 }
 
 .investment-type:hover {

@@ -3049,6 +3049,16 @@ margin-bottom: 25px;
     display: none;
 }
 
+/* for tech.html */
+.rightanimation {
+    position: absolute;
+    right: 20px;
+}
+.vh36{
+    height: 36vh;
+}
+/* end for tech.html */
+
 @media (min-width: 860px) {
     #bp2Container{
         display: none;
