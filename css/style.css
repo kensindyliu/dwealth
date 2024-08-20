@@ -3059,6 +3059,63 @@ margin-bottom: 25px;
 }
 /* end for tech.html */
 
+/* About page start */
+.gridcenter {
+    display: grid;
+    justify-items: center;
+}
+
+.dwfeature {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: var(--dwbgblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.dwfeature:hover {
+    background-color: var(--dwgree);     
+}
+
+.dwiconcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 45px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.dwicon {
+    background-size: contain; 
+    background-position: left center; 
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;    
+    filter: invert(1) brightness(2) contrast(1000%);
+}
+
+.personalize-icon {
+    background-image: url('../img/icons/personalize.png');
+}
+
+.newtech-icon {
+    background-image: url('../img/icons/newtech.png');
+}
+
+.dynamic-icon {
+    background-image: url('../img/icons/dynamic.png');
+    height: 28px !important;
+    width: 28px !important;
+}
+
+
+
+/* About page end */
+
 @media (min-width: 860px) {
     #bp2Container{
         display: none;
