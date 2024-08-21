@@ -82,15 +82,16 @@ td {
     min-width: 60px;
  }
  
- .newstable td:nth-child(3) {
+ .newstable td:nth-child(3),
+ .newstable td:nth-child(4) {
     width: 120px;
     min-width: 120px;
  }
 
- .newstable td:nth-child(4) {
+ /* .newstable td:nth-child(4) {
     width: 80px;
     min-width: 80px;
-} 
+}  */
 
 td:nth-child(2) {
     width: calc(100% - 250px);
