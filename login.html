@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <div class="logo">
+				<img class="logoimg" src="img/logo2.png" alt="">
+            </div>
+            <h2>Welcome</h2>
+            <form action="login.aspx" method="post">
+                <div class="input-group">
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="input-group">
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                </div>
+				<div class="checkbox-container">
+					<!-- Checkbox for 'I am a manager' -->
+					<div class="checkbox-group">
+						<input type="checkbox" name="manager" id="manager">
+						<label for="manager">I am a manager</label>
+					</div>
+
+					<!-- Checkbox for 'Remember me' -->
+					<div class="checkbox-group">
+						<input type="checkbox" name="remember_me" id="remember_me">
+						<label for="remember_me">Remember me</label>
+					</div>
+				</div>
+
+                <button type="submit" class="login-btn">Login</button>
+                <p class="signup-text">Don't have an account? <a href="#">Sign Up</a></p>
+				<div class="login-forgot">
+                    <a href="#" class="signup-text">Forgot password</a>
+                </div>                
+            </form>
+        </div>
+    </div>
+</body>
+</html>
