@@ -3113,6 +3113,9 @@ margin-bottom: 25px;
     width: 28px !important;
 }
 
+.hiddenP {
+    display: none;
+}
 
 
 /* About page end */
